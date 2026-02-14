@@ -92,6 +92,15 @@ function navigateToHomePage() {
     Toaster.postMessage('navigateToHomePage');
 }
 
+function navigateToNotification() {
+  Toaster.postMessage("navigateToNotification");
+}
+
+function navigateToLogout(){
+  Toaster.postMessage("navigateToLogout");
+}
+
+
 
 
 // brandingSwiper 
